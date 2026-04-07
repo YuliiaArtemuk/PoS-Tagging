@@ -1,6 +1,8 @@
 import spacy
+from langdetect import detect
 
-nlp = spacy.load("en_core_web_sm")
+nlp_en = spacy.load("en_core_web_sm")
+nlp_uk = spacy.load("uk_core_news_sm")
 
 POS_MAP = {
     "NOUN": 0,  
@@ -25,7 +27,19 @@ def convert_text_to_pos_numbers(input_file, output_file, log_file):
         with open(input_file, 'r', encoding='utf-8') as f:
             text = f.read()
 
-        doc = nlp(text)
+        try:
+            language = detect(text)
+        except:
+            print("Не вдалося визначити мову, за замовчуванням -- англійська")
+            language = 'en'
+
+        if language == 'uk':
+            doc = nlp_uk(text)
+        elif language == 'en':
+            doc = nlp_en(text)
+        else:
+            print(f"Мова '{language}' не підтримується. Спроба обробити як англійську")
+            doc = nlp_en(text)
 
         numbers = []
         unknown_logs = [] 
