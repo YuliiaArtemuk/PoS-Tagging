@@ -1,0 +1,38 @@
+--- У файлі: Mistral_Large_Simulated_Cooking_Science_1.txt ---
+  - Слово 'a_w' має тег 'PUNCT'
+  - Слово 'a_w' має тег 'PUNCT'
+
+--- У файлі: Mistral_Large_Simulated_Macroeconomics_1.txt ---
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '$' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово 'M^d$' має тег 'PUNCT'
+  - Слово 'M^d$' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '0' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+
+--- У файлі: Mistral_Large_Simulated_Quantum_Physics_1.txt ---
+  - Слово '\phi$' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '|\psi\rangle$' має тег 'PUNCT'
+  - Слово '0$.' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '|\psi\rangle$' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово 't)$.' має тег 'PUNCT'
+  - Слово 't)$.' має тег 'PUNCT'
+  - Слово '0$.' має тег 'PUNCT'
+  - Слово '$' має тег 'PUNCT'
+  - Слово 'm_s' має тег 'PUNCT'
+  - Слово 'n_i' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово 'n_i' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+

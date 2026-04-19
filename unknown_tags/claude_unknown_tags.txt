@@ -1,0 +1,11 @@
+--- У файлі: Claude_3.5_Simulated_High_Fantasy_1.txt ---
+  - Слово '’s' має тег 'PUNCT'
+  - Слово '’s' має тег 'PUNCT'
+
+--- У файлі: Claude_3.5_Simulated_Macroeconomics_1.txt ---
+  - Слово '=' має тег 'PUNCT'
+
+--- У файлі: Claude_3.5_Simulated_Quantum_Physics_1.txt ---
+  - Слово 'x' має тег 'SYM'
+  - Слово '-34' має тег 'PUNCT'
+

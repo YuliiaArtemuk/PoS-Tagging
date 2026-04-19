@@ -1,0 +1,18 @@
+--- У файлі: Llama_4_Simulated_Cyberpunk_Fiction_1.txt ---
+  - Слово '’s' має тег 'PUNCT'
+  - Слово '’s' має тег 'PUNCT'
+
+--- У файлі: Llama_4_Simulated_Music_Theory_1.txt ---
+  - Слово '>' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+  - Слово '=' має тег 'PUNCT'
+
+--- У файлі: Llama_4_Simulated_Space_Colonization_1.txt ---
+  - Слово '’s' має тег 'PUNCT'
+

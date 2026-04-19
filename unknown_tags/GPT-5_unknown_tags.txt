@@ -1,0 +1,14 @@
+--- У файлі: GPT-5_Simulated_Cognitive_Psychology_1.txt ---
+  - Слово '/b/' має тег 'PUNCT'
+
+--- У файлі: GPT-5_Simulated_Macroeconomics_1.txt ---
+  - Слово '\text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous' має тег 'PUNCT'
+  - Слово '0' має тег 'PUNCT'
+  - Слово 'M$' має тег 'PUNCT'
+  - Слово 'M$' має тег 'PUNCT'
+
+--- У файлі: GPT-5_Simulated_Quantum_Physics_1.txt ---
+  - Слово '=' має тег 'PUNCT'
+  - Слово 'm_s' має тег 'PUNCT'
+  - Слово 'm_s' має тег 'PUNCT'
+

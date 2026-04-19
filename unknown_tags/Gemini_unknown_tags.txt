@@ -1,0 +1,13 @@
+--- У файлі: Gemini_2.5_Simulated_Botany_1.txt ---
+  - Слово '→' має тег 'SYM'
+  - Слово '→' має тег 'SYM'
+
+--- У файлі: Gemini_2.5_Simulated_Macroeconomics_1.txt ---
+  - Слово '>' має тег 'PUNCT'
+  - Слово 'x' має тег 'PUNCT'
+  - Слово '$' має тег 'SYM'
+
+--- У файлі: Gemini_2.5_Simulated_Music_Theory_1.txt ---
+  - Слово '/V' має тег 'PUNCT'
+  - Слово '2&4' має тег 'PUNCT'
+
