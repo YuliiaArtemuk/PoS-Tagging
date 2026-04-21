@@ -7,7 +7,7 @@ from matplotlib.ticker import MultipleLocator
 
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 
-folder_path = "graphs\Mistral" 
+folder_path = "graphs/NL" 
 
 file_pattern = os.path.join(folder_path, '*.xlsx')
 files = glob.glob(file_pattern)
@@ -33,5 +33,5 @@ else:
     plt.grid(True)
     plt.tight_layout()
     
-    plt.savefig('graphs\combined_plot_mistral.png')
-    #plt.show()
+    plt.savefig('graphs/combined_plot_NL.png')
+    plt.show()
