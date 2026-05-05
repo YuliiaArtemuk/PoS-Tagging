@@ -3,11 +3,11 @@ import spacy
 from langdetect import detect
 
 nlp_uk = spacy.load("uk_core_news_sm")
-nlp_en = spacy.load("en_core_web_sm")
+#nlp_en = spacy.load("en_core_web_sm")
 
 # -Для великих текстів-
-#nlp_en = spacy.load("en_core_web_sm", disable=["parser", "ner"])
-#nlp_en.max_length = 10000000
+nlp_en = spacy.load("en_core_web_sm", disable=["parser", "ner"])
+nlp_en.max_length = 10000000
 
 POS_MAP = {
     "NOUN": 0,  
