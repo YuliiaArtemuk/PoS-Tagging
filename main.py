@@ -3,11 +3,11 @@ import spacy
 from langdetect import detect
 
 nlp_uk = spacy.load("uk_core_news_sm")
-#nlp_en = spacy.load("en_core_web_sm")
+nlp_en = spacy.load("en_core_web_sm")
 
 # -Для великих текстів-
-nlp_en = spacy.load("en_core_web_sm", disable=["parser", "ner"])
-nlp_en.max_length = 10000000
+#nlp_en = spacy.load("en_core_web_sm", disable=["parser", "ner"])
+#nlp_en.max_length = 10000000
 
 POS_MAP = {
     "NOUN": 0,  
@@ -112,8 +112,8 @@ def process_text_folder(input_folder, output_folder, global_log_file):
 
 
 if __name__ == "__main__":
-    INPUT_DIR = "NL"        
-    OUTPUT_DIR = "results/nl_results"   
-    LOG_FILE = "unknown_tags/NL_unknown_tags.txt"
+    INPUT_DIR = "history/NL_history"        
+    OUTPUT_DIR = "results/history_results/NL_history_results"   
+    LOG_FILE = "unknown_tags/NL_history_unknown_tags.txt"
 
     process_text_folder(INPUT_DIR, OUTPUT_DIR, LOG_FILE)

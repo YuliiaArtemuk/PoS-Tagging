@@ -1,0 +1,10 @@
+--- У файлі: theNewPenguinHistoryOfTheWorld_Roberts_2.txt ---
+  - Слово '’s' має тег 'PUNCT'
+  - Слово '’s' має тег 'PUNCT'
+
+--- У файлі: theNewPenguinHistoryOfTheWorld_Roberts_3.txt ---
+  - Слово '’s' має тег 'PUNCT'
+
+--- У файлі: theNewPenguinHistoryOfTheWorld_Roberts_4.txt ---
+  - Слово 'Wheel-' має тег 'PUNCT'
+
