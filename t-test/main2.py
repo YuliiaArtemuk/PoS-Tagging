@@ -13,10 +13,10 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "T_Test_Results" )
 
 COL_FILENAME = "text"         
 COL_REGULAR_AVG = "average (regular)" 
-COL_POS_AVG = "average (pos)"      
+COL_POS_AVG = "average (pos)"     
 
 BASELINE_KEYWORD = "theNewPenguinHistoryOfTheWorld"
-AI_KEYWORDS = ["Claude", "Gemini", "GPT", "Llama", "Mistral"]
+AI_KEYWORDS = ["Claude", "Gemini", "GPT", "Llama", "Llama"]
 
 def clean_numeric_column(series):
     if series.dtype == 'object':
@@ -93,12 +93,11 @@ def perform_analysis_and_plot(nat_arr, ai_arr, ai_name, metric_name, mode_name, 
     plt.savefig(png_path, dpi=300)
     plt.close()
 
-
 def main():
     if not os.path.exists(EXCEL_FILE):
         print(f"Помилка: Файл {EXCEL_FILE} не знайдено!")
         return
-
+    
     xls = pd.ExcelFile(EXCEL_FILE)
 
     for sheet_name in xls.sheet_names:
@@ -130,7 +129,7 @@ def main():
             
             perform_analysis_and_plot(nat_pos, ai_pos, ai, "POS-Tagging", sheet_name, sheet_folder_pos)
             
-            print(f"Збережено порівняння: NL vs {ai}")
+            print(f"Збережено порівняння: NL vs {ai}") 
 
 if __name__ == "__main__":
     main()

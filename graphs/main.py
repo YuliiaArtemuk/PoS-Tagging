@@ -7,7 +7,7 @@ from matplotlib.ticker import MultipleLocator
 
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 
-folder_path = "graphs/all_history/+len_each_rep" 
+folder_path = "not_pos/by_words/NL" 
 
 file_pattern = os.path.join(folder_path, '*.xlsx')
 files = glob.glob(file_pattern)
@@ -28,10 +28,10 @@ else:
     plt.title('')
     plt.xlabel('t')
     plt.ylabel('V(t)')
-    plt.gca().yaxis.set_major_locator(MultipleLocator(0.15))
+    plt.gca().yaxis.set_major_locator(MultipleLocator(0.01))
     plt.legend(loc='best') 
     plt.grid(True)
     plt.tight_layout()
     
-    plt.savefig('graphs/all_history/+len_each_rep/plot_+len_each_rep.png')
+    plt.savefig('not_pos/by_words/NL/plot_+1_1rep_by_words_NL.png')
     plt.show()
